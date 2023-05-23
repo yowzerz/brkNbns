@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>bark and beans 3.0</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body>
+
+
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/logo-bark.png" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Food</a></li>
+                            <li><a href="">Drinks</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" width="30px" height="30px">
+                    <img src="images/menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Welcome to <br>Bark and Beans!</h1>
+                        <p>Take a sip of paw-sitivity<br>
+                            after a ruff day!</p>
+                        <a href="" class="btn">Order Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/dg-1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!---features categories--->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/cat-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/cat-2.jpeg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/cat-3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!---features products--->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/kp-1.jpg">
+                    <h4>Caramel Chill</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>P150.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/kp-2.jpg">
+                    <h4>Arctic Noir</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+                    <p>P110.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/kp-3.jpg">
+                    <h4>Midnight Mocha Swirl</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                    </div>
+                    <p>P165.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/kp-4.jpg">
+                    <h4>Parmesan-Infused Pasta Alfredo with Truffle Shavings</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>P173.00</p>
+                </div>
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/ft-1.jpg">
+                    <h4>Pesto Pasta</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>P150.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/ft-2.jpg">
+                    <h4>Matcha Latte</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+                    <p>P110.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/ft-3.jpg">
+                    <h4>Espresso Frappucino</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                    </div>
+                    <p>P165.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/ft-4.jpg">
+                    <h4>Chicken Grilled Cheese Sandwich</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>P173.00</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/kp-1.jpg">
+                        <h4>Caramel Chill</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+    
+                        </div>
+                        <p>P150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/kp-2.jpg">
+                        <h4>Arctic Noir</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+    
+                        </div>
+                        <p>P110.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/kp-3.jpg">
+                        <h4>Midnight Mocha Swirl</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+    
+                        </div>
+                        <p>P165.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/kp-4.jpg">
+                        <h4>Parmesan-Infused Pasta Alfredo with Truffle Shavings</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>P173.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!----Offer---->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/ofr-1.png" class="offer-img" >
+                    </div>
+                    <div class="col-2">
+                        <p>Get it now! at Bark and Blends Cafe.</p>
+                        <h1>Our Coffee Bliss Extravaganza!</h1>
+                        <small>Indulge in a coffee lover's paradise with our Coffee Bliss Extravaganza! Immerse yourself in a world of exquisite flavors and aromatic blends,
+                        specially crafted to elevate your coffee experience. Don't miss out on this limited-time promotion at Bark and Blends!</small>
+                        <a href="" class="btn">Buy Now! &#8594;</a>
+                    </div>          
+                </div>
+            </div>
+        </div>
+
+        <!----reviews---->
+        <div class="review">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis lorem eu ullamcorper lobortis.
+                             Proin tincidunt lacinia est, nec finibus tortor commodo a.</p>
+                             <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <img src="images/user-1.jpg">
+                            <h3>Chiyong Liit</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis lorem eu ullamcorper lobortis.
+                             Proin tincidunt lacinia est, nec finibus tortor commodo a.</p>
+                             <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <img src="images/user-2.jpg">
+                            <h3>Tokito</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis lorem eu ullamcorper lobortis.
+                             Proin tincidunt lacinia est, nec finibus tortor commodo a.</p>
+                             <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <img src="images/user-3.jpg">
+                            <h3>Dahyun Blonde</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Available for Android and ios.</p>
+                <div class="app-logo">
+                    <img src="images/gp.png">
+                    <img src="images/aplstr.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-bark.png" alt="">
+                <p>[Why this Business?]</p>
+            </div>
+            <div class="footer-col-3">
+               <h3>Useful Links</h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Promos</li>
+                <li>Policy</li>
+                <li>[La Nako Maisip]</li>
+               </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+                 <li>Linkedin</li>
+                </ul>
+             </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Kt Shnl</p>
+    </div>
+</div>
+<!--Js for toggle Menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
